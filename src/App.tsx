@@ -27,7 +27,7 @@ export default function App() {
   return (
     <I18nProvider value={{ lang, setLang, t: translations[lang] }}>
       <main>
-        <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh' }}>
           <Hero />
           <Nav />
         </div>
